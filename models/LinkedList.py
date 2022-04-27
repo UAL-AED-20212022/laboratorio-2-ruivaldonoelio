@@ -88,7 +88,6 @@ class LinkedList:
             new_node.ref = n.ref
             n.ref = new_node
             
-
     def get_count(self):
         if self.start_node is None:
             return 0
@@ -110,7 +109,7 @@ class LinkedList:
                 print("Item found")
                 return True
             n = n.ref
-        print("item bot found")
+        print("item not found")
         return False
 
 
